@@ -1,0 +1,41 @@
+@media only screen and (max-width: 29.5em) {
+
+	#wrapper {
+		width: 85%;
+	}
+	
+	hgroup > h1 {
+		font-size: 36px;
+		font-size: 3.6rem;
+	}
+	
+	hgroup > p {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+	
+	hgroup {
+		margin-bottom: 39px;
+		margin-bottom: 3.9rem;
+	}
+	
+	#wrapper > p {
+		margin-top: 26px;
+		margin-top: 2.6rem;
+	}
+	
+	header a {
+		width: 80%;
+		min-width: 0;
+	}
+}
+
+@media only screen and (min-width: 81.25em) {
+	
+	textarea {
+		height: 182px;
+		height: 18.2rem;
+		
+	}
+	
+}

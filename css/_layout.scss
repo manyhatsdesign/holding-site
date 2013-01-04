@@ -1,3 +1,98 @@
 // ==========================================================================
 // Page Layout
 // ========================================================================== */
+
+#wrapper {
+	margin: 0 auto;
+	width: 56%;
+	color: #DBD3C0;
+}
+
+#wrapper > p {
+	font-size: 21px; font-size: 2.1rem;
+	line-height: 39px; line-height: 3.9rem;
+	font-weight: 200;
+	margin: 52px 0 26px 0;
+	margin: 5.2rem 0 2.6rem 0;
+}
+
+input,
+textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-radius: 1px;
+	background: #F4ECD6;
+	border: none;
+	width: 100%;
+	height: 39px;
+	height: 3.9rem;
+	margin-bottom: 13px;
+	margin-bottom: 1.3rem;
+	padding: 13px; padding: 1.3rem;
+	line-height: 1;
+}
+
+textarea {
+  resize: vertical;
+	height: 104px;
+	height: 10.4rem;
+}
+
+label {
+	display: block;
+	width: 100%;
+	height: 26px;
+	height: 2.6rem;
+	text-align: left;
+}
+
+input[type=submit] {
+	display: block;
+	width: 156px;
+	width: 15.6rem;
+	margin: 26px auto;
+	margin: 2.6rem auto;
+	padding: 0;
+	border-radius: 2px;
+	border: 1px solid #35291F;
+	color: #DFD8C4;
+	
+	@include linear-gradient(-90deg, #433326 0%, #372B21 100%);
+	@include transition (0.15s box-shadow);
+}
+
+input[type=submit]:hover {
+	@include box-shadow(0 0 15px rgba(244, 236, 214, 0.15));
+}
+
+input[type=submit]:active {
+	@include transform(translateY(5px));
+}
+
+footer {
+	margin-top: 52px;
+	margin-top: 5.2rem;
+}
+footer span {
+	font-size: 0.8em;
+}
+
+#wrapper-thanks {
+	display: none;
+	text-align: center;
+	margin: 130px auto;
+	margin: 13rem auto;
+	color: #DBD3C0;
+}
+
+#wrapper-thanks h1 {
+	letter-spacing: 8px;
+	letter-spacing: .8rem;
+}
+
+input[type=text].disabled,
+input[type=email].disabled,
+textarea.disabled {
+	cursor: default;
+	opacity: .7;
+}
+

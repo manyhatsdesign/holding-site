@@ -1,8 +1,7 @@
 // =======================
 // Fixes - From HTML5 BP
 // ======================= */
- 
-// apply a natural box layout model to all elements - Danny Smith 1 Oct 12 */
+
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -14,15 +13,6 @@
 @-ms-viewport{
     width: device-width;
 }
-	
-
-html,body // Fix for whitespace on right bug in FF */
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 
 //Uses classes assed by JS.
 .mac h1,
@@ -31,19 +21,6 @@ html,body // Fix for whitespace on right bug in FF */
 .mac h4 {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
-// ==========================================================================
-// Custom Fonts not from TypeKit
-// ========================================================================== */
-
-
-
-
-
-
-
-
-
 
 // ==========================================================================
 // Base Styles
@@ -70,50 +47,25 @@ html, button, input, select, textarea {
 html {
 	font-size: 62.5%; // (16 being the default font size for most browsers - I drop it down to 10) */
   line-height: 2.6em; // (26px line-height) */
+	background: #4D3F30 url(/img/dbg.jpg) repeat top left;
+	text-align: center;
+	
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-weight: 200;
 }
 
 body {
-	// Body copy should have about 66 characters per line. /*
-	// Use http://www.pearsonified.com/typography/ to calculate sizes */
 	font-size: 1.6rem; /* 16px */
 }
 
-#wrapper {
-	max-width: 1000px;
-	margin: 0 auto; padding: 0 2%;
-	
-	-moz-box-sizing: content-box;
-	-webkit-box-sizing: content-box;
-	box-sizing: content-box;
-	*behavior: none;
-}
-
-h1, .h1 {
-	font-size: 36px; font-size: 3.6rem;
+h1 {
+	font-size: 48px; font-size: 4.8rem;
 	line-height: 52px; line-height: 5.2rem;
-	font-weight: normal;
-	margin: 0 0 26px 0;
-	margin-bottom: 2.6rem;
+	font-weight: 200;
+	margin: 0;
 }
 
-h2, .h2 {
-	font-size: 24px; font-size: 2.4rem;
-	line-height: 39px; line-height: 3.9rem;
-	font-weight: normal;
-	margin: 0 0 26px 0;
-	margin-bottom: 2.6rem;
-}
-
-h3, .h3 {
-	font-size: 21px; font-size: 2.1rem;
-	line-height: 26px; line-height: 2.6rem;
-	font-weight: normal;
-	margin: 0 0 26px 0;
-	margin-bottom: 2.6rem;
-	
-}
-
-p, .p, ul, ol {
+p {
 	font-size: 16px; font-size: 1.6rem;
 	margin: 0 0 26px 0;
 	margin-bottom: 2.6rem;
@@ -126,28 +78,41 @@ p, .p, ul, ol {
     padding: 0.2em 0;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 img {
     vertical-align: middle;
 		max-width: 100%;
 		position: relative;
 }
 
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+header {
+	width: 100%;
+	border-bottom: 2px solid #211807;
+	background: #C9C5A9 url(/img/lbg.jpg);
+	
+	padding-top: 52px;
+	padding-top: 5.2rem;
 }
 
-textarea {
-    resize: vertical;
+header > a {
+	display: block;
+	
+	width: 43%;
+	max-width: 776px;
+	min-width: 370px;
+	height: 0;
+	padding-bottom: 12%;
+	background: url(/img/logo.png) no-repeat center center;
+	background-size: contain;
+	margin: 0 auto;
+}
+
+hgroup {
+	margin: 39px 0 65px;
+	margin: 3.9rem 0 6.5rem;
+}
+
+hgroup > p {
+	font-size: 23px; font-size: 2.3rem;
+	line-height: 52px; line-height: 5.2rem;
 }
 /* @end */
