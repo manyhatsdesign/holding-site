@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Designer: Danny Smith.
+Site: danny@dasmith.co.uk
+Twitter: @dannysmith
+Location: Eastbourne, UK
+
+# TECHNOLOGY COLOPHON
+              
+Last update: 2012/01/13                      
+Standards: HTML5, CSS3, PHP
+Components: Modernizr, jQuery, Typekit
+Software: Textmate, CodeKit, SASS, Transmit & OSX
