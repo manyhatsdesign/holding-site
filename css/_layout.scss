@@ -9,7 +9,7 @@
 }
 
 #wrapper > p {
-	font-size: 21px; font-size: 2.1rem;
+	font-size: 18px; font-size: 1.8rem;
 	line-height: 39px; line-height: 3.9rem;
 	font-weight: 200;
 	margin: 52px 0 26px 0;
@@ -76,6 +76,10 @@ footer span {
 	font-size: 0.8em;
 }
 
+footer > p:first-child {
+	margin-bottom: 0;
+}
+
 #wrapper-thanks {
 	display: none;
 	text-align: center;
@@ -95,4 +99,5 @@ textarea.disabled {
 	cursor: default;
 	opacity: .7;
 }
+
 

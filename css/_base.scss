@@ -58,6 +58,20 @@ body {
 	font-size: 1.6rem; /* 16px */
 }
 
+a {
+	color: #DBD3C0;
+	text-decoration: none;
+	@include transition(0.3s all);
+}
+
+a:hover {
+	border-bottom: 1px dashed #211807;
+}
+
+a:visited {
+	
+}
+
 h1 {
 	font-size: 48px; font-size: 4.8rem;
 	line-height: 52px; line-height: 5.2rem;
