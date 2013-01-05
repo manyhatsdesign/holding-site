@@ -2,15 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8241",
   "files" : {
-    "\/css\/_normalize.scss" : {
+    "\/css\/main.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "inputAbbreviatedPath" : "\/css\/main.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/main.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -133,15 +133,6 @@
       "initialSize" : 59131,
       "fileType" : 4096
     },
-    "\/css\/ie8.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ie8.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-    },
     "\/img\/grid-26.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -163,6 +154,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "fileType" : 64
+    },
+    "\/css\/ie8.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/ie8.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/includes\/_head.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -195,16 +195,16 @@
       "initialSize" : 26832,
       "fileType" : 8192
     },
-    "\/img\/lbg-old.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/vendor\/modernizr-2.6.2.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/lbg-old.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/lbg-old.jpg",
-      "initialSize" : 59131,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min-ck.js",
+      "fileType" : 64
     },
     "\/css\/ie8.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -218,16 +218,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/main.js" : {
+    "\/img\/lbg-old.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/lbg-old.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/lbg-old.jpg",
+      "initialSize" : 59131,
+      "fileType" : 4096
     },
     "\/email.php" : {
       "ignoreWasSetByUser" : 0,
@@ -236,6 +236,15 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/email.php",
       "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
     "\/includes\/_foot.kit" : {
@@ -247,24 +256,15 @@
       "outputAbbreviatedPath" : "\/includes\/_foot.html",
       "fileType" : 65536
     },
-    "\/index.html" : {
+    "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/vendor\/modernizr-2.6.2.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.js",
+      "inputAbbreviatedPath" : "\/js\/main.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/main-ck.js",
       "fileType" : 64
     },
     "\/css\/_base.scss" : {
@@ -279,15 +279,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/main.scss" : {
+    "\/css\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/main.css",
+      "inputAbbreviatedPath" : "\/css\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
